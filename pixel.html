@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 100px;
+        }
+        #box{
+            background-color: aqua;
+        height: 200px;
+        width: 200px;
+        }
+        #inner{
+            background-color: rgb(60, 79, 95);
+            height: 100px;
+            width: 100px;
+        }
+        #parent{
+            height: 200px;
+            width: 100px;
+
+            background-color: rgb(169, 80, 162);
+        }
+        #child{
+            height:25%; 
+            width:50%;
+            background-color: blueviolet;
+        }
+        h2{
+            font-size: 5vw;
+        }
+        h3{
+            font-size: 3vh;
+        }
+        #width{
+            height:20vw;
+            width: 20vh;
+            background-color: rgb(255, 0, 0);
+        }
+        #box2{
+            height:30vmax;
+            width: 20vmin ;
+            background-color: rgb(0, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>hello ki size change nahi hogi jb tum window size change karoge</h1>
+    <div id="box">
+        <div id="inner"></div>
+    </div>
+    <div id="parent">
+        <div id="child"></div>
+    </div>
+
+<h2>hello changes with width of screen</h2>
+<h3>this changes with height of screen</h3></body>
+<div id="width"></div>
+<div id="box2"></div>
+</html>
