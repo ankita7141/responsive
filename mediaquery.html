@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+height: 200px;
+width: 200px;
+        background: #ba4c4c;}
+        @media (max-width:500px) and (min-width:200px) {
+            #box{
+                background: #000;
+                border-radius: 25%;
+            }
+        }
+        @media (min-width:700px) {
+            body{
+                background: #4c3535;
+            }
+            box{
+                height: 400px;
+                border-radius: 50%;
+                background-color: #0a445c;
+            }
+            
+        }
+    </style>
+</head>
+<body>  
+    
+    <div id="box"></div>
+</body>
+</html>
